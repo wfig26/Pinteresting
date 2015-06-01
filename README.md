@@ -4,4 +4,5 @@
  [*One Month Rails*](http://onemonthrails.com)
 
  by [Ward Figge](http://mattangriffel.com)
- 
+
+ this is going to be fun!
