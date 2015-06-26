@@ -13,7 +13,7 @@ gem 'bootstrap-sass'
 
 gem 'devise', '~> 3.5.1' 
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
 	gem 'sqlite3'
@@ -21,7 +21,7 @@ end
 
 group :production do
 	gem 'pg'
-
+	gem 'rails_12factor'
 end
 
 group :doc do
